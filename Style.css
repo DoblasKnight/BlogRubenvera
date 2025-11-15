@@ -1,0 +1,84 @@
+body {
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+header p {
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+/* Blog container */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Post cards */
+.post {
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.post:hover {
+  transform: scale(1.01);
+}
+
+.post h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background: #222;
+  color: #fff;
+  font-size: 0.9rem;
+}
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.6rem; /* Título más pequeño */
+  }
+
+  header p {
+    font-size: 0.9rem; /* Subtítulo más pequeño */
+  }
+
+  .container {
+    padding: 10px;
+    margin: 20px auto;
+  }
+
+  .post {
+    padding: 15px; /* Recuadro más compacto en móviles */
+  }
+}
